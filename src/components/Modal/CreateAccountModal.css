@@ -1,0 +1,108 @@
+.create-acc-btn {
+	background-color: #53b82a;
+	color: white;
+}
+
+.app-create-acc-modal {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	background-color: white;
+	color: black;
+}
+
+.create-post-modal {
+	width: 32rem;
+}
+
+.conditions {
+	font-size: 11px;
+}
+
+.pronoun-visibility-alert {
+	font-size: 13px;
+}
+
+.modal-genderModal-text {
+	box-shadow: 0 0 7px -2px grey;
+}
+
+.textarea {
+	resize: none;
+	outline: 0;
+	border: 0;
+}
+
+.emoji-palette {
+	position: absolute;
+	top: -10rem;
+	right: 0;
+}
+
+.emoji-picker {
+	display: none;
+}
+
+.create-post-modal {
+	z-index: 999;
+}
+
+.modal-close-btn {
+	background-color: rgba(128, 128, 128, 0.247);
+	padding: 0.2rem 0.7rem;
+	border-radius: 100%;
+}
+
+.modal-close-btn:hover {
+	background-color: rgba(128, 128, 128, 0.349);
+}
+
+.emoji-icon:active {
+	transform: scale(0.9);
+}
+
+.post-photo {
+	color: green;
+}
+
+.post-user {
+	color: blue;
+}
+
+.post-smile {
+	color: #f7b827;
+}
+
+.post-map {
+	color: rgba(255, 0, 0, 0.781);
+}
+
+.post-microphone {
+	color: rgba(255, 0, 0, 0.781);
+}
+
+.post-ellipsis {
+	color: rgb(80, 75, 75);
+}
+
+.post-btn {
+	background-color: #1977f2;
+	color: white;
+	border: 0;
+	outline: 0;
+	border-radius: 0.5rem;
+}
+
+.post-btn:hover {
+	background-color: #006eff;
+}
+
+.post-btn:active {
+	transform: scale(0.98);
+}
+
+.post-btn:disabled {
+	background-color: #00000027;
+	color: #00000027;
+}

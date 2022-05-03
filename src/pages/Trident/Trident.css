@@ -1,0 +1,85 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.successful-travel-numbers {
+  background: -webkit-gradient(linear, left top, right top, from(#ec711e), to(#fcc42c));
+  background: linear-gradient(to right, #ec711e, #fcc42c);
+}
+
+.user-img {
+  border-radius: 100%;
+  width: 170px;
+  height: 80px;
+}
+
+.itTrident-logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 6rem;
+}
+
+.header-nav-list {
+  font-family: Montserrat;
+  color: #42495b;
+}
+
+.home-content-image {
+  width: 50%;
+}
+
+.home-content-list {
+  width: 50%;
+}
+
+.home-list-icons {
+  border: 6px solid white;
+}
+
+.contact-card {
+  width: 80%;
+}
+
+.who-we-are-section {
+  width: 50%;
+}
+
+.who-we-are-section .who-we-are-text {
+  font-family: Rubik;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.who-we-are-section .who-we-are-text span {
+  font-weight: 500;
+}
+
+.who-we-are-section .who-we-are-text-para {
+  font-family: Rubik;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.who-we-are-section .what-we-offer-icons i {
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-top-left-radius: 100%;
+  border: 1px solid #707070;
+  color: #000;
+}
+
+.who-we-are-section .what-we-offer-icons i:hover {
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#f8a71a), to(#ee6d23));
+  background: transparent linear-gradient(180deg, #f8a71a 0%, #ee6d23 100%);
+  color: white;
+  border: 1px solid transparent;
+}
+
+.who-we-are-section .what-we-offer-icons span {
+  font-family: Rubik;
+  font-size: 20px;
+  color: #42495b;
+  font-weight: 500;
+}
+/*# sourceMappingURL=Trident.css.map */

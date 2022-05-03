@@ -1,0 +1,5 @@
+@media (min-width: 320px) and (max-width: 900px) {
+	.messaging-section {
+		display: none;
+	}
+}

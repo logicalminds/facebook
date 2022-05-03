@@ -1,0 +1,71 @@
+.user-post-section {
+	box-shadow: 0 0 7px -2px grey;
+}
+
+.post-section-user-picture {
+	object-fit: contain;
+	height: 2.5rem;
+	border-radius: 100%;
+}
+
+.post-live-video {
+	font-size: 1.5rem;
+	color: #f34a5f;
+}
+
+.post-photo-video {
+	font-size: 1.5rem;
+	color: #52bd62;
+}
+
+.post-feeling-activity {
+	font-size: 1.5rem;
+	color: #f7b827;
+}
+
+.post-section-text {
+	font-size: 0.95rem;
+}
+
+.post-create-room {
+	font-size: 1.2rem;
+	color: #cb50b1;
+}
+
+.post-create-room-text {
+	color: #6d5aaa;
+	font-size: 0.95rem;
+	font-weight: 600;
+	width: 6rem;
+}
+
+.create-room-section {
+	overflow-x: scroll;
+}
+
+.post-text {
+	overflow: hidden;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	white-space: normal;
+}
+
+.post-picture {
+	object-fit: contain;
+	max-width: 100%;
+}
+
+.like-comment-text {
+	font-size: 15px;
+	color: rgb(75, 72, 72);
+}
+
+.like-icon {
+	font-size: 20px;
+}
+
+.fa-globe-asia {
+	color: gray;
+	font-size: 13px;
+}

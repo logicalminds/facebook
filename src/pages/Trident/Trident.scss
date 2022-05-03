@@ -1,0 +1,81 @@
+$font-Montserrat: Montserrat;
+$font-Rubik: Rubik;
+$font-Poppins: Poppins;
+
+* {
+	box-sizing: border-box;
+}
+
+.successful-travel-numbers {
+	background: linear-gradient(to right, rgb(236, 113, 30), rgb(252, 196, 44));
+}
+
+.user-img {
+	border-radius: 100%;
+	width: 170px;
+	height: 80px;
+}
+
+.itTrident-logo {
+	object-fit: contain;
+	height: 6rem;
+}
+
+.header-nav-list {
+	font-family: $font-Montserrat;
+	color: #42495b;
+}
+
+.home-content-image {
+	width: 50%;
+}
+
+.home-content-list {
+	width: 50%;
+}
+
+.home-list-icons {
+	border: 6px solid white;
+}
+
+.contact-card {
+	width: 80%;
+}
+
+.who-we-are-section {
+	width: 50%;
+	.who-we-are-text {
+		font-family: $font-Rubik;
+		font-weight: 300;
+		font-size: 50px;
+		span {
+			font-weight: 500;
+		}
+	}
+	.who-we-are-text-para {
+		font-family: $font-Rubik;
+		font-weight: 300;
+		font-size: 16px;
+	}
+
+	.what-we-offer-icons {
+		i {
+			border-bottom-left-radius: 100%;
+			border-bottom-right-radius: 100%;
+			border-top-left-radius: 100%;
+			border: 1px solid #707070;
+			color: #000;
+		}
+		i:hover {
+			background: transparent linear-gradient(180deg, #f8a71a 0%, #ee6d23 100%);
+			color: white;
+			border: 1px solid transparent;
+		}
+		span {
+			font-family: $font-Rubik;
+			font-size: 20px;
+			color: #42495b;
+			font-weight: 500;
+		}
+	}
+}

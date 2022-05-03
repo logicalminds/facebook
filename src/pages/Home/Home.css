@@ -1,0 +1,48 @@
+.body-container {
+	background-color: #f0f2f5;
+}
+
+.app-facebook-logo {
+	object-fit: contain;
+	height: 45px;
+}
+
+.app-form-wrapper {
+	max-width: 400px;
+}
+
+.app-input-section {
+	box-shadow: 0 3px 12px -4px grey;
+}
+
+.login-btn {
+	background-color: #1977f2;
+	color: white;
+}
+
+.login-btn:hover {
+	background-color: #006eff;
+}
+
+.forgot-password {
+	color: #1977f2;
+}
+
+.forgot-password:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.create-acc-btn {
+	background-color: #53b82a;
+	color: white;
+}
+
+.create-acc-btn:hover {
+	background-color: #3ca014;
+}
+
+.home-view-password-icon {
+	top: 1rem;
+	right: 1rem;
+}

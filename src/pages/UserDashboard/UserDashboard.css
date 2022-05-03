@@ -1,0 +1,225 @@
+.dashboard-container-wrapper {
+	display: flex;
+	width: 100%;
+}
+
+.left-navigation-section-wrapper {
+	width: 21%;
+}
+
+.feed-container-wrapper {
+	overflow-y: scroll;
+	flex: 1;
+	max-height: 100vh;
+	max-width: 100%;
+}
+
+.messaging-section-wrapper {
+	width: 20%;
+}
+
+.left-nav-section {
+	overflow: auto;
+	max-height: 100vh;
+	flex: 1;
+}
+
+.left-nav-section::-webkit-scrollbar {
+	display: none;
+}
+
+.left-nav-section:hover::-webkit-scrollbar,
+.messaging-section:hover::-webkit-scrollbar {
+	width: 0.5rem;
+	border-radius: 2rem;
+	background-color: rgba(128, 128, 128, 0.397);
+	display: inline-block;
+}
+
+.user-icon {
+	font-size: 1.65rem;
+	color: grey;
+}
+
+.nav-list:hover {
+	background-color: rgba(0, 0, 0, 0.075);
+	border-radius: 0.5rem;
+}
+
+.nav-icons {
+	object-fit: contain;
+	height: 1.7rem;
+}
+
+.list-text {
+	font-size: 0.95rem;
+}
+
+.user-image {
+	object-fit: contain;
+	height: 7rem;
+}
+
+.see-more:hover {
+	background-color: rgba(0, 0, 0, 0.075);
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+.see-more-arrow {
+	background-color: rgba(128, 128, 128, 0.158);
+	border-radius: 100%;
+	font-size: 0.8rem;
+}
+
+.messaging-section {
+	overflow: auto;
+	max-height: 100vh;
+}
+
+.main-section::-webkit-scrollbar,
+.messaging-section::-webkit-scrollbar {
+	display: none;
+}
+
+.stories-section-wrapper {
+	margin: 0 4rem;
+}
+
+.stories-section {
+	overflow-x: scroll;
+	max-width: 100%;
+}
+
+.stories-section::-webkit-scrollbar {
+	display: none;
+}
+
+.story-card-wrapper {
+	min-width: calc(100% / 5.4);
+	height: 12rem;
+	margin: 0 0.3rem;
+	position: relative;
+	cursor: pointer;
+}
+
+.user-stories-wrapper {
+	overflow: hidden;
+	box-shadow: 0 0 6px -2px gray;
+}
+
+.user-stories {
+	object-fit: cover;
+	width: 100%;
+	height: 12rem;
+}
+
+.story-card-wrapper:hover,
+.user-stories:hover {
+	filter: contrast(0.85);
+}
+
+.add-story-btn {
+	padding: 0.05rem 0.65rem;
+	border: 4px solid white;
+}
+
+.friends-stories-wrapper {
+	overflow: hidden;
+	height: 12rem;
+	box-shadow: 0 0 6px -2px gray;
+}
+
+.friends-stories {
+	height: 12rem;
+	transition: transform ease-out 0.1s;
+}
+
+.friends-stories:hover,
+.user-stories:hover {
+	transform: scale(1.02);
+	transition: transform ease-in 0.1s;
+}
+
+.user-profile-picture {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 100%;
+	border: 4px solid blue;
+	margin-left: 0.7rem;
+	margin-top: 0.7rem;
+}
+
+.add-story-btn-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: -1.3rem;
+}
+
+.user-add-story-card {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.edit-hidden {
+	display: none;
+}
+
+.edit-view {
+	display: block;
+}
+
+.stories-scroll-btn {
+	font-size: 1.2rem;
+	background-color: white;
+	padding: 0.55rem 1.2rem;
+	border-radius: 100%;
+	box-shadow: 0 0 5px -1px gray;
+	position: absolute;
+	z-index: 1;
+}
+
+.stories-scroll-btn-right {
+	right: -1.3rem;
+}
+
+.stories-scroll-btn-left {
+	left: -1.3rem;
+}
+
+.stories-scroll-btn:hover {
+	filter: contrast(0.9);
+}
+
+.stories-scroll-btn:active {
+	transform: scale(0.95);
+	filter: contrast(0.7);
+}
+
+.scrollToStory0 {
+	transform: translateX(calc(0%));
+	transition: transform ease-in-out 1s;
+}
+
+.scrollToStory-1 {
+	transform: translateX(calc(500% - (5 * (0.4rem))));
+	transition: transform ease-in-out 1s;
+}
+
+.scrollToStory1 {
+	transform: translateX(calc(-500% - (5 * (0.4rem))));
+	transition: all ease-in-out 1s;
+}
+
+@media (min-width: 320px) and (max-width: 1100px) {
+	.nav-wrapper {
+		display: none;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 900px) {
+	.messaging-section {
+		display: none;
+	}
+}

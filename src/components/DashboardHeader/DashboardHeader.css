@@ -1,0 +1,88 @@
+.dashboard-container {
+	box-shadow: 0 0 0.5rem -0.1rem gray;
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+
+.search-wrapper,
+.user-section-wrapper {
+	margin: 0.5rem 1rem;
+}
+
+.facebook-logo {
+	object-fit: contain;
+	height: 2.5rem;
+}
+
+.home,
+.watch,
+.group,
+.gaming {
+	border-bottom: 3px solid #1977f2;
+}
+
+.header-home-icon {
+	object-fit: contain;
+	font-size: 1.5rem;
+	color: grey;
+	padding: 0.8rem 2.5rem;
+	border-radius: 0.3rem;
+	margin-top: 0.3rem;
+	cursor: pointer;
+}
+
+.active-tab {
+	color: #1977f2;
+}
+
+.header-home-icon:hover {
+	background-color: #e4e6eb;
+}
+
+.header-icons {
+	object-fit: contain;
+	height: 2.8rem;
+	filter: opacity(0.5);
+	padding: 0.6rem 2.5rem;
+	border-radius: 0.3rem;
+	margin-top: 0.3rem;
+}
+
+.header-icons:hover {
+	background-color: #e4e6eb;
+}
+
+.dashboard-header-user-icon {
+	font-size: 1.8rem;
+	color: grey;
+}
+
+.facebook-watch {
+	filter: grayscale(100%);
+}
+
+.username {
+	max-width: 10ch;
+	font-weight: 500;
+}
+
+.header-user-icons {
+	padding: 0.5rem;
+	background-color: #e4e6eb;
+	object-fit: contain;
+	height: 2.4rem;
+	border-radius: 100%;
+}
+
+.header-user-icons:hover {
+	background-color: #c7c8cc;
+}
+
+.sort-down {
+	padding: 0.6rem;
+}
+
+.changePlaceholderColor::placeholder {
+	filter: invert(1);
+}

@@ -1,0 +1,25 @@
+.header-wrapper {
+	box-shadow: 0 0 10px -4px grey;
+}
+
+.header-facebook-logo {
+	object-fit: contain;
+	height: 23px;
+}
+
+.header-input {
+	max-width: 12rem;
+}
+
+.header-forgotten-acc {
+	color: #1977f2;
+}
+
+.header-forgotten-acc:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.header-login-btn:active {
+	transform: scale(0.95);
+}
